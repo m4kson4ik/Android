@@ -1,0 +1,26 @@
+<resources>
+    <string name="search">Search</string>
+    <string name="sorted">Sorted</string>
+    <string name="teacher">Teacher</string>
+    <string name="numberAudition">Audition</string>
+    <string name="dateAndTimeStart">Date and time start</string>
+    <string name="dateAndTimeEnd">Date and Time end</string>
+    <string name="List">List</string>
+    <string name="Create">Create</string>
+    <string name="SortedName">Sorted name</string>
+    <string name="SortedNumberAudition">Sorted number audition</string>
+    <string name="SortedStart">Sorted start</string>
+    <string name="SortedEnd">Sorted end</string>
+    <string name="FieldName">Name</string>
+    <string name="FieldNumberAudition">Number audition</string>
+    <string name="FieldDateAndTimeStart">Date and time start</string>
+    <string name="FieldDateAndTimeEnd">Date and time end</string>
+    <string name="profile">Profile</string>
+    <string name="Edition">Edition</string>
+    <string name="Exit">Exit</string>
+    <string name="Error">Error</string>
+    <string name="Confirmationoftheaction">Confirmation of the action</string>
+    <string name="DeletedElementMessage">Do you really want to delete the selected item?</string>
+    <string name="Delete">Delete</string>
+    <string name="Cancel">Cancel</string>
+</resources>

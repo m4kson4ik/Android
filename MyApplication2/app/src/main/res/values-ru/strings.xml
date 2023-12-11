@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Поиск</string>
+    <string name="sorted">Сортировка</string>
+    <string name="teacher">Преподаватель</string>
+    <string name="numberAudition">Аудитория</string>
+    <string name="dateAndTimeStart">Дата и время начала</string>
+    <string name="dateAndTimeEnd">Дата и время окончания</string>
+    <string name="List">Список</string>
+    <string name="Create">Добавить</string>
+    <string name="SortedName">Сортировать по имени</string>
+    <string name="SortedNumberAudition">Сортировать по номеру аудитории</string>
+    <string name="SortedStart">Сортировать по началу</string>
+    <string name="SortedEnd">Сортировать по концу</string>
+    <string name="FieldName">Имя</string>
+    <string name="FieldNumberAudition">Номер аудитории</string>
+    <string name="FieldDateAndTimeStart">Дата и время начала</string>
+    <string name="FieldDateAndTimeEnd">Дата и время окончания</string>
+    <string name="profile">Профиль</string>
+    <string name="Edition">Редактировать</string>
+    <string name="Exit">Выход</string>
+    <string name="Error">Ошибка</string>
+    <string name="Confirmationoftheaction">Подтверждение действия</string>
+    <string name="DeletedElementMessage">Вы действительно хотите удалить выбранный элемент?</string>
+    <string name="Delete">Удалить</string>
+    <string name="Cancel">Отмена</string>
+</resources>

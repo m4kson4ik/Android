@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RestAPI</string>
+    <string name="type">тип</string>
+    <string name="count">количество</string>
+    <string name="reciveButton">получить</string>
+</resources>

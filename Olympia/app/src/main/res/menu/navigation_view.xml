@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/profile"
+        android:fontFamily="sans-serif-light">
+        <menu>
+            <item android:id="@+id/personalData"
+                android:title="@string/personal_data"
+                android:fontFamily="sans-serif-light"
+                android:icon="@drawable/account_circle_24" />
+            <item android:id="@+id/editingData"
+                android:title="@string/editing_data"
+                android:fontFamily="sans-serif-light" />
+        </menu>
+    </item>
+    <item android:title="@string/settings"
+        android:fontFamily="sans-serif-light">
+        <menu>
+            <item android:id="@+id/changeLanguage"
+                android:title="@string/changing_language"
+                android:fontFamily="sans-serif-light"
+                android:icon="@drawable/language_24"/>
+            <item android:id="@+id/appInfo"
+                android:title="@string/app_Info"
+                android:fontFamily="sans-serif-light"
+                android:icon="@drawable/info_24"/>
+            <item android:id="@+id/deleteAccount"
+                android:title="@string/deleting_data"
+                android:fontFamily="sans-serif-light"
+                android:icon="@drawable/delete_24"/>
+            <item android:id="@+id/exitFromAccount"
+                android:title="@string/exit_from_account"
+                android:fontFamily="sans-serif-light"
+                android:icon="@drawable/exit_to_app_24"/>
+        </menu>
+    </item>
+</menu>

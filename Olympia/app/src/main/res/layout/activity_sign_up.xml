@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".views.activities.SignUp">
+    <TextView
+        android:id="@+id/TitleOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/registration"
+        android:textColor="@color/primary"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/UserNameOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/PasswordOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/GenderOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/gender"
+        android:inputType="text"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/BirthdayOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/date_of_birth"
+        android:inputType="text"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EmailOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/primary"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BSaveOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/primary"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BGoBackOnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary"
+        android:text="@string/go_back"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp" />
+</LinearLayout>

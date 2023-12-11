@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LLVOnLogIn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.LogInFragment">
+
+    <TextView
+        android:id="@+id/TitleOnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="@string/authorization"
+        android:textColor="@color/primary"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/UserNameOnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/PasswordOnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BSaveOnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/primary"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/BGoBackOnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary"
+        android:text="@string/go_back"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

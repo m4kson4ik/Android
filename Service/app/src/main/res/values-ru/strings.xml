@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Service</string>
+    <string name="cancel">Отменить</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="theresultisreceived">Результат получен</string>
+    <string name="starting">Запущено</string>
+    <string name="Number1">Число 1</string>
+    <string name="ansvers">Ответы</string>
+    <string name="showing">Показать</string>
+    <string name="Result">Результат</string>
+</resources>

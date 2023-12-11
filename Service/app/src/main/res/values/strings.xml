@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Service</string>
+    <string name="cancel">cancel</string>
+    <string name="calculate">calculate</string>
+    <string name="theresultisreceived">the result is received</string>
+    <string name="starting">Starting</string>
+    <string name="Number1">Number 1</string>
+    <string name="ansvers">ansvers</string>
+    <string name="showing">showing</string>
+    <string name="Result">Result</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OLYMPIA</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="training">Training</string>
+    <string name="my_health">My health</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="personal_data">Personal data</string>
+    <string name="authorization">Authorization</string>
+    <string name="changing_language">RU</string>
+    <string name="editing_data">Editing data</string>
+    <string name="save">Save</string>
+    <string name="exit_from_account">Exit from account</string>
+    <string name="app_Info">Addition Information about App</string>
+    <string name="blood_analysis">Blood analysis</string>
+    <string name="weight_analysis">Weight analysis</string>
+    <string name="recommended_meal_plan">Recommended meal plan</string>
+    <string name="vitamins">Vitamins</string>
+    <string name="subscription">Subscription</string>
+    <string name="settings">Settings</string>
+    <string name="registration">Registration</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="email">Email</string>
+    <string name="description">Enter description of the post</string>
+    <string name="comment">Enter the comment</string>
+    <string name="go_back">Go back</string>
+    <string name="for_empty_fields">" "</string>
+    <string name="community_article3">How fast can you lose muscle mass without training</string>
+    <string name="community_article2">How much muscle mass should men and women have</string>
+    <string name="community_article1">Protein-rich Foods for Muscle Building</string>
+    <string name="for_subscribers">This part is available only to those who have subscribed</string>
+    <string name="log_in">Log in</string>
+    <string name="deleting_data">Delete an account</string>
+</resources>

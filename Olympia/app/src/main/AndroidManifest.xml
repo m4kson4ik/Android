@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon_of_the_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_of_the_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Olympia"
+        tools:targetApi="31">
+        <activity
+            android:name=".views.activities.Profile"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".views.activities.EditData"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".views.activities.SignUp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.ContentActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.activities.MainEntertainment"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
